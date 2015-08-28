@@ -1,5 +1,6 @@
-# Global descriptor table is stored in kernel memory and may be accessed through kernel modules or system call via store_gdt function. The GDT(Global Descriptor Table) entries can be obtained by using the this kernel module.
+# GDT
 
+Global descriptor table is stored in kernel memory and may be accessed through kernel modules or system call via store_gdt function. The GDT(Global Descriptor Table) entries can be obtained by using the this kernel module.
 
 Python debugging:
 
