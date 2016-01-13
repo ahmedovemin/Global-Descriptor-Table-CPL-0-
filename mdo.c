@@ -12,7 +12,7 @@
 #include <linux/percpu.h>
 #include <linux/thread_info.h>
 #include <linux/sched.h>
-
+#include <linux/emin.h>
 #define currentt get_current()
 struct LIST_ENTRY{ //windows compatible :)
 	int next,prev;
